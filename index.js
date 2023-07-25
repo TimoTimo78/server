@@ -7,7 +7,7 @@ app.use(cors())
 
 app.get('/', (req, res) => {
     res.send('🎉 Hello ExpressWorld! 🎉')
-  })
+})
 
 app.listen(PORT, () => {
     console.log(`Server up and running on port http://localhost:${PORT}`)
